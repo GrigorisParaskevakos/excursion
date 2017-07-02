@@ -2,24 +2,27 @@
 
 body {
     background-color: black;
-    font-family: Helvetica;
     color: white;
+    font-family: Helvetica;
+    text-align: center;
 }
 
 
-/*css rule for heading*/
+/*css rule for heading and footer*/
 
-#heading {
+#heading,
+#footer {
     font-size: 32px;
     text-align: center;
 }
 
 
-/*css rule for link at heading*/
+/*css rule for link at heading and footer*/
 
-#heading a {
+#heading a,
+#footer a {
     font-size: 16px;
-    color: cyan;
+    color: Aquamarine;
 }
 
 
@@ -37,7 +40,7 @@ body {
         color: white;
     }
     to {
-        color: royalblue;
+        color: Aquamarine;
     }
 }
 
@@ -46,4 +49,11 @@ body {
 
 #heading #hide:hover {
     animation: 0.75s bg infinite alternate;
+}
+
+
+/*css rule for p element*/
+
+p {
+    color: grey;
 }
