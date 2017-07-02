@@ -53,7 +53,7 @@ body {
 }
 
 
-/*css rule for link's word:"hidden" at heading when hovered*/
+/*css rule for link's word:'hidden' at heading when hovered*/
 
 #heading #hide:hover {
     animation: 0.75s bg infinite alternate;
