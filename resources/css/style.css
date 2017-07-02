@@ -5,6 +5,7 @@ body {
     color: white;
     font-family: Helvetica;
     text-align: center;
+    align-items: center;
 }
 
 
@@ -23,6 +24,10 @@ body {
 #footer a {
     font-size: 16px;
     color: Aquamarine;
+}
+
+#footer #cr {
+    text-align: right;
 }
 
 
