@@ -1,0 +1,11 @@
+/*css rule for body*/
+
+body {
+    background-color: black;
+    font-family: Helvetica;
+    color: white;
+}
+
+h1 {
+    font-size: 64px;
+}
