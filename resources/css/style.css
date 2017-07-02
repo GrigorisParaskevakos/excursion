@@ -6,6 +6,25 @@ body {
     color: white;
 }
 
-h1 {
-    font-size: 64px;
+
+/*css rule for heading*/
+
+#heading {
+    font-size: 32px;
+    text-align: center;
+}
+
+
+/*css rule for link at heading*/
+
+#heading a {
+    font-size: 16px;
+    color: cyan;
+}
+
+
+/*css rule for link at heading when hovered*/
+
+#heading a:hover {
+    color: #0f3;
 }
