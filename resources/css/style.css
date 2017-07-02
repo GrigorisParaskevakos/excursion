@@ -28,3 +28,22 @@ body {
 #heading a:hover {
     color: #0f3;
 }
+
+
+/*css variables in @keyframes*/
+
+@keyframes bg {
+    from {
+        color: white;
+    }
+    to {
+        color: royalblue;
+    }
+}
+
+
+/*css rule for link's word:"hidden" at heading when hovered*/
+
+#heading #hide:hover {
+    animation: 0.75s bg infinite alternate;
+}
